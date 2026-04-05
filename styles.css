@@ -33,9 +33,9 @@ body {
     radial-gradient(circle at top left, rgba(26, 168, 158, 0.10), transparent 28%),
     radial-gradient(circle at top right, rgba(242, 160, 92, 0.12), transparent 30%),
     linear-gradient(180deg, #edf4f8 0%, #f7fafc 46%, #eef5f8 100%);
-  font-family: "Avenir Next", "SF Pro Display", "PingFang TC", "Noto Sans TC", sans-serif;
+  font-family: "Manrope", "Avenir Next", "SF Pro Display", "PingFang TC", "Noto Sans TC", sans-serif;
   font-size: 17px;
-  line-height: 1.72;
+  line-height: 1.74;
 }
 
 a {
@@ -122,6 +122,10 @@ a:hover {
   box-shadow: var(--shadow-soft);
 }
 
+.hero-panel.deluxe {
+  padding: 46px 42px;
+}
+
 .hero-panel::before,
 .doc-card::before,
 .card::before {
@@ -160,14 +164,16 @@ h2 {
 
 h1 {
   margin-top: 18px;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-size: clamp(2.2rem, 5vw, 4.2rem);
-  line-height: 1.08;
+  line-height: 1.1;
 }
 
 h2 {
   margin-top: 14px;
-  font-size: clamp(1.25rem, 2.4vw, 1.8rem);
-  line-height: 1.24;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: clamp(1.28rem, 2.4vw, 1.85rem);
+  line-height: 1.28;
 }
 
 .hero-copy,
@@ -180,7 +186,8 @@ h2 {
 .hero-copy {
   max-width: 760px;
   margin: 18px 0 0;
-  font-size: 1.05rem;
+  font-size: 1.04rem;
+  line-height: 1.8;
 }
 
 .hero-actions {
@@ -188,6 +195,30 @@ h2 {
   gap: 14px;
   flex-wrap: wrap;
   margin-top: 28px;
+}
+
+.compact-actions {
+  margin-top: 20px;
+}
+
+.hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.hero-highlights span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: rgba(46, 120, 148, 0.09);
+  border: 1px solid rgba(46, 120, 148, 0.10);
+  color: var(--primary);
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
 .button {
@@ -280,6 +311,15 @@ h2 {
   padding: 30px;
 }
 
+.doc-card h2 {
+  margin-bottom: 12px;
+}
+
+.doc-card p,
+.doc-card li {
+  font-size: 1rem;
+}
+
 .doc-card ul {
   margin: 14px 0 0;
   padding-left: 22px;
@@ -317,6 +357,10 @@ h2 {
     padding: 28px 24px;
   }
 
+  .hero-panel.deluxe {
+    padding: 32px 24px;
+  }
+
   .card,
   .doc-card {
     padding: 24px 20px;
@@ -326,7 +370,7 @@ h2 {
 @media (max-width: 640px) {
   body {
     font-size: 16px;
-    line-height: 1.66;
+    line-height: 1.68;
   }
 
   .site-shell {
@@ -355,7 +399,7 @@ h2 {
   }
 
   .hero-copy {
-    font-size: 1rem;
+    font-size: 0.98rem;
   }
 
   .nav-links {
