@@ -390,7 +390,8 @@ h2 {
   display: grid;
   gap: 18px;
   margin-top: 24px;
-  max-width: 920px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .doc-card {
