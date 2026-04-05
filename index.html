@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="zh-Hant" data-page="home">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,38 +17,44 @@
       <nav class="topbar">
         <a class="brand" href="./index.html">
           <img src="assets/app-icon.png" alt="複利計算機 App Icon" class="brand-icon">
-          <span>複利計算機</span>
+          <span data-i18n="brandName">複利計算機</span>
         </a>
+        <div class="topbar-actions">
+          <div class="lang-switcher" role="group" aria-label="Language switcher">
+            <button class="lang-btn active" type="button" data-lang="zh">中</button>
+            <button class="lang-btn" type="button" data-lang="en">EN</button>
+          </div>
         <div class="nav-links">
-          <a href="./privacy.html">隱私權政策</a>
-          <a href="./copyright.html">版權聲明</a>
+          <a href="./privacy.html" data-i18n="navPrivacy">隱私權政策</a>
+          <a href="./copyright.html" data-i18n="navCopyright">版權聲明</a>
+        </div>
         </div>
       </nav>
 
       <section class="hero-panel deluxe">
-        <div class="eyebrow">Compound Calculator</div>
-        <h1>把重要的使用說明，整理成更清楚的一頁</h1>
-        <p class="hero-copy">
+        <div class="eyebrow" data-i18n="heroEyebrow">Compound Calculator</div>
+        <h1 data-i18n="heroTitle">把重要的使用說明，整理成更清楚的一頁</h1>
+        <p class="hero-copy" data-i18n="heroCopy">
           這裡整理了複利計算機的隱私權政策、版權資訊與使用說明。
           你可以在這裡快速了解 App 如何處理資料、哪些內容受版權保護，以及使用時需要知道的基本資訊。
         </p>
         <div class="hero-highlights">
-          <span>Privacy Policy</span>
-          <span>Copyright Notice</span>
-          <span>User Guide</span>
+          <span data-i18n="highlightOne">Privacy Policy</span>
+          <span data-i18n="highlightTwo">Copyright Notice</span>
+          <span data-i18n="highlightThree">User Guide</span>
         </div>
         <div class="hero-actions">
-          <a class="button primary" href="./privacy.html">查看隱私權政策</a>
-          <a class="button secondary" href="./copyright.html">查看版權聲明</a>
+          <a class="button primary" href="./privacy.html" data-i18n="ctaPrivacy">查看隱私權政策</a>
+          <a class="button secondary" href="./copyright.html" data-i18n="ctaCopyright">查看版權聲明</a>
         </div>
       </section>
     </header>
 
     <main class="content-grid">
       <section class="card card-feature">
-        <div class="card-kicker">產品介紹</div>
-        <h2>一個幫你看懂資產變化的財務規劃工具</h2>
-        <p>
+        <div class="card-kicker" data-i18n="featureEyebrow">產品介紹</div>
+        <h2 data-i18n="featureTitle">一個幫你看懂資產變化的財務規劃工具</h2>
+        <p data-i18n="featureCopy">
           複利計算機提供投資複利、財務自由、退休規劃與貸款試算等工具，
           讓你可以用更直觀的方式理解長期資產變化、報酬假設與貸款壓力。
         </p>
@@ -56,31 +62,31 @@
 
       <section class="card metrics-card">
         <div class="metric">
-          <span class="metric-label">主要功能</span>
-          <strong>投資、FIRE、退休、貸款</strong>
+          <span class="metric-label" data-i18n="metricOneLabel">主要功能</span>
+          <strong data-i18n="metricOneValue">投資、FIRE、退休、貸款</strong>
         </div>
         <div class="metric">
-          <span class="metric-label">資料處理</span>
-          <strong>以裝置本機計算為主</strong>
+          <span class="metric-label" data-i18n="metricTwoLabel">資料處理</span>
+          <strong data-i18n="metricTwoValue">以裝置本機計算為主</strong>
         </div>
         <div class="metric">
-          <span class="metric-label">訂閱管理</span>
-          <strong>透過 Apple 訂閱管理</strong>
+          <span class="metric-label" data-i18n="metricThreeLabel">訂閱管理</span>
+          <strong data-i18n="metricThreeValue">透過 Apple 訂閱管理</strong>
         </div>
       </section>
 
       <section class="card links-card">
-        <div class="card-kicker">快速查看</div>
+        <div class="card-kicker" data-i18n="linksEyebrow">快速查看</div>
         <ul class="link-list">
-          <li><a href="./privacy.html">隱私權政策</a></li>
-          <li><a href="./copyright.html">版權聲明</a></li>
-          <li><a href="https://github.com/VictoriaC1122" target="_blank" rel="noreferrer">GitHub 作者頁面</a></li>
+          <li><a href="./privacy.html" data-i18n="linksPrivacy">隱私權政策</a></li>
+          <li><a href="./copyright.html" data-i18n="linksCopyright">版權聲明</a></li>
+          <li><a href="https://github.com/VictoriaC1122" target="_blank" rel="noreferrer" data-i18n="linksGithub">GitHub 作者頁面</a></li>
         </ul>
       </section>
 
       <section class="card note-card">
-        <div class="card-kicker">提醒</div>
-        <p>
+        <div class="card-kicker" data-i18n="noteEyebrow">提醒</div>
+        <p data-i18n="noteCopy">
           本網站提供的是產品說明與使用資訊，不構成投資、保險、貸款或法律建議。
           若你需要做正式財務決策，仍建議依照自身情況與專業人士意見判斷。
         </p>
@@ -88,9 +94,10 @@
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 複利計算機. All rights reserved.</p>
-      <p>GitHub: <a href="https://github.com/VictoriaC1122" target="_blank" rel="noreferrer">VictoriaC1122</a></p>
+      <p data-i18n="footerCopy">© 2026 複利計算機. All rights reserved.</p>
+      <p data-i18n="footerGithub">GitHub: <a href="https://github.com/VictoriaC1122" target="_blank" rel="noreferrer">VictoriaC1122</a></p>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
