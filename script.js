@@ -2,77 +2,73 @@ const copy = {
   home: {
     zh: {
       title: "複利計算機｜使用前快速了解",
-      description: "開始使用複利計算機前，先快速了解隱私、內容使用方式與基本條款。",
+      description: "開始使用複利計算機前，先快速了解隱私、訂閱、內容使用方式與基本條款。",
       brandName: "複利計算機",
       navPrivacy: "隱私權政策",
       navCopyright: "版權聲明",
       navTerms: "使用條款",
       heroEyebrow: "Compound Calculator",
-      heroTitle: "開始使用前，你可以先快速了解這些資訊",
-      heroCopy: "這裡整理了使用複利計算機前最常需要知道的內容，像是資料如何處理、網站與 App 內容怎麼使用，以及服務的基本條款。你可以直接從下面三個入口開始，看你現在最想了解哪一塊。",
+      heroTitle: "開始使用前，先快速了解資料、訂閱與使用方式",
+      heroCopy: "這裡整理了使用複利計算機前最常需要知道的內容，包含資料如何處理、專業版訂閱如何由 Apple 管理，以及網站與 App 內容的基本使用方式。你可以直接從下面三個入口開始，先看目前最需要確認的資訊。",
       highlightOne: "隱私權政策",
       highlightTwo: "版權聲明",
       highlightThree: "使用條款",
       ctaPrivacy: "查看隱私權政策",
       ctaTerms: "查看使用條款",
       featureEyebrow: "產品介紹",
-      featureTitle: "一個把複雜財務試算整理得更直覺的工具",
-      featureCopy: "複利計算機提供投資複利、財務自由、退休規劃與貸款試算等功能，幫你更快看懂數字、比較情境，並整理出適合自己的規劃方向。",
+      featureTitle: "一個讓長期財務規劃更清楚的工具",
+      featureCopy: "複利計算機提供投資複利、財務自由、退休規劃與貸款試算等功能，幫你更快看懂重要數字、比較不同情境，並整理出更適合自己的規劃方向。",
       metricOneLabel: "主要功能",
       metricOneValue: "投資、FIRE、退休、貸款",
       metricTwoLabel: "資料處理",
       metricTwoValue: "以裝置本機計算為主",
-      metricThreeLabel: "訂閱管理",
-      metricThreeValue: "透過 Apple 訂閱管理",
+      metricThreeLabel: "訂閱與付款",
+      metricThreeValue: "透過 Apple 訂閱與付款機制管理",
       linksEyebrow: "快速查看",
       linksPrivacy: "隱私權政策",
       linksCopyright: "版權聲明",
       linksTerms: "使用條款",
       linksPrivacyCopy: "了解 App 如何處理你的資料與裝置上的設定。",
       linksCopyrightCopy: "查看內容使用方式、版權歸屬與授權說明。",
-      linksTermsCopy: "快速了解服務範圍、責任界線與訂閱相關條款。",
-      linksGithub: "GitHub 作者頁面",
+      linksTermsCopy: "快速了解服務範圍、責任界線，以及專業版訂閱的基本條款。",
       noteEyebrow: "提醒",
-      noteCopy: "本網站提供的是產品說明與使用資訊，不構成投資、保險、貸款或法律建議。若你需要做正式財務決策，仍建議依照自身情況與專業人士意見判斷。",
-      footerCopy: "© 2026 複利計算機. All rights reserved.",
-      footerGithub: "GitHub: <a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>"
+      noteCopy: "本網站提供的是產品與使用資訊，協助你了解複利計算機如何運作，以及專業版訂閱如何由 Apple 管理。網站內容不構成投資、保險、貸款或法律建議。",
+      footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
       title: "Compound Calculator | Before You Start",
-      description: "A quick place to understand privacy, content usage, and basic terms before using Compound Calculator.",
+      description: "A quick place to review privacy, subscriptions, content use, and basic terms before using Compound Calculator.",
       brandName: "Compound Calculator",
       navPrivacy: "Privacy Policy",
       navCopyright: "Copyright Notice",
       navTerms: "Terms of Use",
       heroEyebrow: "Compound Calculator",
-      heroTitle: "A quick place to understand the essentials before you start",
-      heroCopy: "This page brings together the information users most often want to review before using Compound Calculator, including how data is handled, how app and website content may be used, and the basic terms of the service. You can start with whichever section matters most to you.",
+      heroTitle: "Review privacy, subscriptions, and usage details before you start",
+      heroCopy: "This page brings together the information users most often want to review before using Compound Calculator, including how data is handled, how Premium subscriptions are managed through Apple, and how app and website content may be used. Start with the section that matters most to you.",
       highlightOne: "Privacy Policy",
       highlightTwo: "Copyright Notice",
       highlightThree: "Terms of Use",
       ctaPrivacy: "View Privacy Policy",
       ctaTerms: "View Terms of Use",
       featureEyebrow: "Product Overview",
-      featureTitle: "A cleaner way to understand long-term financial planning",
-      featureCopy: "Compound Calculator includes tools for investing, FIRE planning, retirement planning, and loan analysis, helping you read the numbers more quickly, compare scenarios, and shape a plan that fits your goals.",
+      featureTitle: "A clearer way to plan long-term finances",
+      featureCopy: "Compound Calculator includes tools for investing, FIRE planning, retirement planning, and loan analysis, helping you understand the key numbers, compare scenarios, and make more informed planning decisions.",
       metricOneLabel: "Core Areas",
       metricOneValue: "Investing, FIRE, Retirement, Loans",
       metricTwoLabel: "Data Handling",
       metricTwoValue: "Calculated mainly on your device",
-      metricThreeLabel: "Subscription",
-      metricThreeValue: "Managed through Apple subscriptions",
+      metricThreeLabel: "Subscriptions",
+      metricThreeValue: "Managed through Apple billing and subscriptions",
       linksEyebrow: "Quick Links",
       linksPrivacy: "Privacy Policy",
       linksCopyright: "Copyright Notice",
       linksTerms: "Terms of Use",
       linksPrivacyCopy: "See how the app handles your data and on-device settings.",
       linksCopyrightCopy: "Review ownership, permitted use, and licensing notes.",
-      linksTermsCopy: "Understand the service scope, responsibilities, and subscription terms.",
-      linksGithub: "GitHub profile",
+      linksTermsCopy: "Understand service scope, responsibilities, and the basic terms for Premium subscriptions.",
       noteEyebrow: "Note",
-      noteCopy: "This website provides product and usage information only. It does not constitute investment, insurance, lending, or legal advice. For real financial decisions, please consider your own situation and consult qualified professionals.",
-      footerCopy: "© 2026 Compound Calculator. All rights reserved.",
-      footerGithub: "GitHub: <a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>"
+      noteCopy: "This website provides product and usage information to help you understand how Compound Calculator works and how Premium subscriptions are managed through Apple. It does not constitute investment, insurance, lending, or legal advice.",
+      footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   },
   privacy: {
@@ -85,11 +81,11 @@ const copy = {
       navTerms: "使用條款",
       heroEyebrow: "Privacy",
       heroTitle: "隱私權政策",
-      heroDate: "最後更新日期：2026 年 4 月 5 日",
+      heroDate: "最後更新日期：2026 年 4 月 9 日",
       backHome: "回首頁",
       goTerms: "前往使用條款",
       section1Title: "1. 政策概要",
-      section1Copy: "複利計算機重視你的個人隱私。本 App 主要提供本機財務試算與情境規劃功能，大部分輸入資料會直接在你的裝置上運算。除 Apple 訂閱與系統服務所需流程外，開發者不會主動集中蒐集、出售或建立個人資料資料庫。",
+      section1Copy: "複利計算機重視你的個人隱私。本 App 主要在你的裝置上完成財務試算與情境規劃。除 Apple 訂閱與系統服務所需流程外，開發者不會主動蒐集、上傳、出售或建立你的個人財務資料庫。",
       section2Title: "2. App 可能處理的資料",
       section2Intro: "為了完成試算、儲存情境與保留設定，App 可能在你的裝置上處理以下資訊：",
       section2Item1: "投資、退休、貸款、財務自由相關的試算輸入數值",
@@ -100,9 +96,9 @@ const copy = {
       section3Item1: "用於完成投資、FIRE、退休與貸款相關試算",
       section3Item2: "用於保留你在裝置上的偏好設定與已儲存情境",
       section3Item3: "用於顯示專業版功能狀態，以及處理恢復購買結果",
-      section3Copy: "除 Apple 訂閱流程所需的系統服務外，開發者不會基於行銷目的，主動將你的試算內容上傳至自建後端或販售給第三方。",
+      section3Copy: "除 Apple 訂閱流程與 iOS 系統服務所需機制外，開發者不會為了行銷、分析或追蹤目的，主動將你的試算內容上傳到自建伺服器，也不會將這些資料出售或分享給第三方。",
       section4Title: "4. 訂閱與付款",
-      section4Copy: "複利計算機的專業版訂閱由 Apple 提供並管理。付款、續訂、取消與退款規則，依 Apple 的 App Store 與訂閱服務條款處理。開發者不會直接持有你的信用卡或付款資訊。",
+      section4Copy: "複利計算機的專業版訂閱由 Apple 提供並管理。付款、續訂、取消與退款規則，依 Apple 的 App Store 與訂閱服務條款處理。開發者不會直接持有你的信用卡資訊或完整付款資訊。",
       section5Title: "5. 分享功能",
       section5Copy: "若你使用 App 內的摘要分享功能，分享內容會透過 iOS 系統分享流程交由你指定的 App 或服務。是否傳送、傳送給誰，以及後續如何保存，均由你自行決定。",
       section6Title: "6. 資料保存",
@@ -113,7 +109,7 @@ const copy = {
       section7Item2: "Apple StoreKit：處理 App 內訂閱購買與權限驗證",
       section7Item3: "iOS System Share Sheet：處理使用者主動發起的摘要分享",
       section8Title: "8. 聯絡方式",
-      section8Copy: "如果你對本政策有任何疑問，或想回報與資料處理相關的問題，可以透過 GitHub 聯絡開發者：<a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>",
+      section8Copy: "如果你對本政策有任何疑問，或想回報與資料處理相關的問題，請來信至 victoriacheeng1122@gmail.com，我們會盡快回覆你。",
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
@@ -125,11 +121,11 @@ const copy = {
       navTerms: "Terms of Use",
       heroEyebrow: "Privacy",
       heroTitle: "Privacy Policy",
-      heroDate: "Last updated: April 5, 2026",
+      heroDate: "Last updated: April 9, 2026",
       backHome: "Back to Home",
       goTerms: "Go to Terms of Use",
       section1Title: "1. Overview",
-      section1Copy: "Compound Calculator respects your privacy. The app mainly provides on-device financial calculations and scenario planning. Most values you enter are processed on your own device. Apart from Apple subscription and system-service flows, the developer does not actively collect, sell, or maintain a centralized personal-data database.",
+      section1Copy: "Compound Calculator respects your privacy. The app is designed to perform financial calculations and scenario planning mainly on your device. Apart from Apple subscription and system-service flows, the developer does not actively collect, upload, sell, or maintain a centralized database of your personal financial data.",
       section2Title: "2. Data the App May Process",
       section2Intro: "To complete calculations, save scenarios, and preserve preferences, the app may process the following information on your device:",
       section2Item1: "Calculation inputs related to investing, retirement, loans, and FIRE planning",
@@ -140,9 +136,9 @@ const copy = {
       section3Item1: "To run investing, FIRE, retirement, and loan calculations",
       section3Item2: "To preserve your preferences and saved scenarios on your device",
       section3Item3: "To display Pro access status and handle restore-purchase results",
-      section3Copy: "Other than system services required for Apple subscription flows, the developer does not upload your calculation content to a custom backend or sell it to third parties for marketing purposes.",
+      section3Copy: "Other than system services required for Apple subscription flows and iOS sharing features, the developer does not upload your calculation content to a custom backend for analytics or marketing, and does not sell or share it with third parties.",
       section4Title: "4. Subscriptions and Payments",
-      section4Copy: "Pro subscriptions for Compound Calculator are provided and managed by Apple. Billing, renewals, cancellations, and refunds are handled under Apple App Store and subscription terms. The developer does not directly hold your credit card or billing information.",
+      section4Copy: "Premium subscriptions for Compound Calculator are provided and managed by Apple. Billing, renewals, cancellations, and refunds are handled under Apple App Store and subscription terms. The developer does not directly store your credit card details or full billing information.",
       section5Title: "5. Sharing Features",
       section5Copy: "If you use the in-app summary sharing feature, the content is passed through the iOS system sharing flow to the app or service you choose. Whether it is sent, where it is sent, and how it is later stored are decisions under your control.",
       section6Title: "6. Data Retention",
@@ -153,7 +149,7 @@ const copy = {
       section7Item2: "Apple StoreKit: for in-app subscription purchases and entitlement validation",
       section7Item3: "iOS System Share Sheet: for user-initiated summary sharing",
       section8Title: "8. Contact",
-      section8Copy: "If you have any questions about this policy, or would like to report a data-related concern, you can contact the developer through GitHub: <a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>",
+      section8Copy: "If you have any questions about this policy, or would like to report a data-related concern, please contact us at victoriacheeng1122@gmail.com.",
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   },
@@ -167,7 +163,7 @@ const copy = {
       navTerms: "使用條款",
       heroEyebrow: "Copyright",
       heroTitle: "內容使用與版權說明",
-      heroDate: "最後更新日期：2026 年 4 月 5 日",
+      heroDate: "最後更新日期：2026 年 4 月 9 日",
       backHome: "回首頁",
       goTerms: "前往使用條款",
       section1Title: "1. 這些內容屬於誰",
@@ -181,9 +177,9 @@ const copy = {
       section3Title: "3. 第三方服務與權利",
       section3Copy: "本 App 可能使用 Apple 提供的系統框架、介面元件或訂閱服務。相關名稱、商標與服務權利，分別屬於各自權利人所有。",
       section4Title: "4. 內容性質說明",
-      section4Copy: "複利計算機提供的是試算、整理與比較工具，不保證投資報酬、貸款核准結果、保險給付或退休規劃成果。網站與 App 的內容主要是一般資訊與產品使用說明，不構成投資、保險、貸款、會計或法律意見。",
+      section4Copy: "複利計算機提供的是試算、整理與比較工具，協助你理解不同情境下的數字變化。網站與 App 的內容主要是一般資訊與產品使用說明，不構成投資、保險、貸款、會計或法律意見，也不保證任何報酬、核貸結果或保單給付。",
       section5Title: "5. 如果你有問題",
-      section5Copy: "如果你對內容使用方式有疑問，或認為本網站與 App 的內容涉及權利問題，可以透過 GitHub 聯絡開發者：<a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>",
+      section5Copy: "如果你對內容使用方式有疑問，或認為本網站與 App 的內容涉及權利問題，請來信至 victoriacheeng1122@gmail.com，我們會盡快協助你。",
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
@@ -195,7 +191,7 @@ const copy = {
       navTerms: "Terms of Use",
       heroEyebrow: "Copyright",
       heroTitle: "Content Use and Copyright",
-      heroDate: "Last updated: April 5, 2026",
+      heroDate: "Last updated: April 9, 2026",
       backHome: "Back to Home",
       goTerms: "Go to Terms of Use",
       section1Title: "1. Who Owns This Content",
@@ -209,9 +205,9 @@ const copy = {
       section3Title: "3. Third-Party Services and Rights",
       section3Copy: "The app may rely on Apple-provided frameworks, interface components, or subscription services. Related names, trademarks, and service rights belong to their respective owners.",
       section4Title: "4. What This Content Is For",
-      section4Copy: "Compound Calculator provides tools for calculation, organization, and comparison. It does not guarantee investment returns, loan approval outcomes, insurance payouts, or retirement planning results. The app and website content is intended as general information and product guidance, not investment, insurance, lending, accounting, or legal advice.",
+      section4Copy: "Compound Calculator provides tools for calculation, organization, and comparison to help users understand how figures may change across different scenarios. The app and website content is intended as general information and product guidance, and does not guarantee investment returns, loan approval outcomes, insurance payouts, or retirement planning results.",
       section5Title: "5. If You Have a Question",
-      section5Copy: "If you have questions about how the content may be used, or believe any part of the app or website affects your rights, you may contact the developer through GitHub: <a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>",
+      section5Copy: "If you have questions about how the content may be used, or believe any part of the app or website affects your rights, please contact us at victoriacheeng1122@gmail.com.",
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   },
@@ -225,7 +221,7 @@ const copy = {
       navTerms: "使用條款",
       heroEyebrow: "Terms",
       heroTitle: "使用條款",
-      heroDate: "最後更新日期：2026 年 4 月 6 日",
+      heroDate: "最後更新日期：2026 年 4 月 9 日",
       backHome: "回首頁",
       goPrivacy: "前往隱私權政策",
       section1Title: "1. 條款適用範圍",
@@ -237,13 +233,13 @@ const copy = {
       section3Item2: "你應自行判斷試算結果是否適合用於真實財務決策",
       section3Item3: "你不得利用本 App 或網站從事違法、侵權或濫用行為",
       section4Title: "4. 專業版與訂閱",
-      section4Copy: "部分功能屬於專業版內容，需透過 Apple 提供的訂閱機制啟用。訂閱、續訂、取消與退款相關事項，依 Apple 的 App Store 與訂閱條款辦理。",
+      section4Copy: "部分功能屬於專業版內容，需透過 Apple 提供的訂閱機制啟用。訂閱價格、續訂、取消與退款相關事項，依 Apple 的 App Store 與訂閱條款辦理。",
       section5Title: "5. 免責聲明",
       section5Copy: "本 App 與本網站內容僅供一般資訊、教育與個人規劃參考，不構成投資、保險、貸款、稅務、會計或法律意見。因使用本工具而採取的任何財務決策，風險與責任均由使用者自行承擔。",
       section6Title: "6. 服務調整與更新",
       section6Copy: "開發者有權依產品需求、法規變動或平台要求，隨時調整、更新、暫停或終止部分功能與說明內容，並於合理範圍內更新相關條款。",
       section7Title: "7. 聯絡方式",
-      section7Copy: "如果你對本使用條款有任何疑問，或想進一步了解 App 的使用方式，可以透過 GitHub 聯絡開發者：<a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>",
+      section7Copy: "如果你對本使用條款有任何疑問，或想進一步了解 App 的使用方式，請來信至 victoriacheeng1122@gmail.com，我們會盡快回覆你。",
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
@@ -255,7 +251,7 @@ const copy = {
       navTerms: "Terms of Use",
       heroEyebrow: "Terms",
       heroTitle: "Terms of Use",
-      heroDate: "Last updated: April 6, 2026",
+      heroDate: "Last updated: April 9, 2026",
       backHome: "Back to Home",
       goPrivacy: "Go to Privacy Policy",
       section1Title: "1. Scope of the Terms",
@@ -267,13 +263,13 @@ const copy = {
       section3Item2: "You are responsible for deciding whether calculation results are suitable for real financial decisions",
       section3Item3: "You may not use the app or website for unlawful, infringing, or abusive activity",
       section4Title: "4. Pro Features and Subscriptions",
-      section4Copy: "Some features are available only in the Pro version and are unlocked through Apple’s subscription system. Subscription, renewal, cancellation, and refund matters are governed by Apple’s App Store and subscription terms.",
+      section4Copy: "Some features are available only in the Premium version and are unlocked through Apple’s subscription system. Subscription pricing, renewal, cancellation, and refund matters are governed by Apple’s App Store and subscription terms.",
       section5Title: "5. Disclaimer",
       section5Copy: "The app and this website are provided for general information, education, and personal planning purposes only. They do not constitute investment, insurance, lending, tax, accounting, or legal advice. Any financial decisions made using this tool are taken at your own risk and responsibility.",
       section6Title: "6. Service Changes and Updates",
       section6Copy: "The developer may adjust, update, suspend, or discontinue parts of the service or related explanations at any time in response to product needs, legal changes, or platform requirements, and may update these terms within a reasonable scope.",
       section7Title: "7. Contact",
-      section7Copy: "If you have any questions about these Terms of Use, or would like to better understand how the app is intended to be used, you can contact the developer through GitHub: <a href=\"https://github.com/VictoriaC1122\" target=\"_blank\" rel=\"noreferrer\">VictoriaC1122</a>",
+      section7Copy: "If you have any questions about these Terms of Use, or would like to better understand how the app is intended to be used, please contact us at victoriacheeng1122@gmail.com.",
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   }
@@ -281,34 +277,45 @@ const copy = {
 
 const page = document.documentElement.dataset.page;
 const metaDescription = document.querySelector('meta[name="description"]');
+const langButtons = Array.from(document.querySelectorAll(".lang-btn"));
+const translatableNodes = Array.from(document.querySelectorAll("[data-i18n]"));
 const savedLang = localStorage.getItem("compound-site-lang");
 const defaultLang = savedLang === "en" ? "en" : "zh";
+const pageCopy = copy[page];
+
+function setNodeCopy(node, value) {
+  node.textContent = value;
+}
 
 function applyLanguage(lang) {
-  const pageCopy = copy[page]?.[lang];
-  if (!pageCopy) return;
+  const localizedCopy = pageCopy?.[lang];
+  if (!localizedCopy) return;
 
   document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
-  document.title = pageCopy.title;
+  document.title = localizedCopy.title;
   if (metaDescription) {
-    metaDescription.setAttribute("content", pageCopy.description);
+    metaDescription.setAttribute("content", localizedCopy.description);
   }
 
-  document.querySelectorAll("[data-i18n]").forEach((node) => {
+  translatableNodes.forEach((node) => {
     const key = node.dataset.i18n;
-    if (!(key in pageCopy)) return;
-    node.innerHTML = pageCopy[key];
+    if (!(key in localizedCopy)) return;
+    setNodeCopy(node, localizedCopy[key]);
   });
 
-  document.querySelectorAll(".lang-btn").forEach((btn) => {
-    btn.classList.toggle("active", btn.dataset.lang === lang);
+  langButtons.forEach((btn) => {
+    const isActive = btn.dataset.lang === lang;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 
   localStorage.setItem("compound-site-lang", lang);
 }
 
-document.querySelectorAll(".lang-btn").forEach((btn) => {
+langButtons.forEach((btn) => {
   btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
 });
 
-applyLanguage(defaultLang);
+if (pageCopy) {
+  applyLanguage(defaultLang);
+}
