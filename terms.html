@@ -21,8 +21,8 @@
         </a>
         <div class="topbar-actions">
           <div class="lang-switcher" role="group" aria-label="Language switcher">
-            <button class="lang-btn active" type="button" data-lang="zh">中</button>
-            <button class="lang-btn" type="button" data-lang="en">EN</button>
+            <button class="lang-btn active" type="button" data-lang="zh" aria-pressed="true">中</button>
+            <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
           <div class="nav-links">
             <a href="./privacy.html" data-i18n="navPrivacy">隱私權政策</a>
@@ -72,7 +72,7 @@
       <section class="doc-card">
         <h2 data-i18n="section4Title">4. 專業版與訂閱</h2>
         <p data-i18n="section4Copy">
-          部分功能屬於專業版內容，需透過 Apple 提供的訂閱機制啟用。訂閱、續訂、取消與退款相關事項，
+          部分功能屬於專業版內容，需透過 Apple 提供的訂閱機制啟用。訂閱價格、續訂、取消與退款相關事項，
           依 Apple 的 App Store 與訂閱條款辦理。
         </p>
       </section>
@@ -95,8 +95,8 @@
 
       <section class="doc-card">
         <h2 data-i18n="section7Title">7. 聯絡方式</h2>
-        <p data-i18n="section7Copy">
-          如果你對本使用條款有任何疑問，或想進一步了解 App 的使用方式，請來信至 victoriacheeng1122@gmail.com，我們會盡快回覆你。
+        <p>
+          <span data-i18n="section7Copy" data-i18n-html="true">如果你對本使用條款有任何疑問，或想進一步了解 App 的使用方式，請來信至 <a class="inline-link" href="mailto:victoriacheeng1122@gmail.com">victoriacheeng1122@gmail.com</a>，我們會盡快回覆你。</span>
         </p>
       </section>
     </main>
@@ -105,6 +105,6 @@
       <p data-i18n="footerCopy">© 2026 複利計算機. All rights reserved.</p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

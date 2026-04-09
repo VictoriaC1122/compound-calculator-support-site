@@ -53,6 +53,17 @@ a:hover {
   text-decoration: underline;
 }
 
+.inline-link {
+  color: var(--primary);
+  font-weight: 700;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1.5px;
+}
+
+.inline-link:hover {
+  color: var(--primary-strong);
+}
+
 .site-shell {
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
@@ -172,6 +183,100 @@ a:hover {
 
 .hero-panel.deluxe {
   padding: 46px 42px;
+}
+
+.brand-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.78fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.brand-hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-aside {
+  display: flex;
+}
+
+.market-panel {
+  position: relative;
+  width: 100%;
+  padding: 26px 24px 24px;
+  border-radius: 24px;
+  border: 1px solid rgba(184, 147, 95, 0.18);
+  background: linear-gradient(180deg, rgba(12, 30, 43, 0.92) 0%, rgba(18, 39, 55, 0.97) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 20px 44px rgba(11, 26, 36, 0.24);
+  color: #f2f6f8;
+}
+
+.market-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
+.market-panel-head,
+.market-grid,
+.market-note {
+  position: relative;
+  z-index: 1;
+}
+
+.market-panel-kicker {
+  display: inline-flex;
+  margin-bottom: 12px;
+  color: rgba(255, 232, 198, 0.84);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.market-panel strong {
+  display: block;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.market-item {
+  padding: 14px 14px 12px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.market-label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(230, 237, 242, 0.72);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.market-note {
+  margin: 18px 0 0;
+  color: rgba(230, 237, 242, 0.76);
+  font-size: 0.94rem;
+  line-height: 1.75;
 }
 
 .hero-panel::before,
@@ -319,6 +424,40 @@ h2 {
 .card {
   border-radius: var(--radius-lg);
   padding: 28px;
+}
+
+.feature-list {
+  margin: 18px 0 0;
+  padding-left: 20px;
+  color: var(--subtext);
+}
+
+.feature-list li + li {
+  margin-top: 8px;
+}
+
+.premium-card {
+  background: linear-gradient(180deg, rgba(24, 53, 74, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.premium-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.premium-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: rgba(24, 53, 74, 0.06);
+  border: 1px solid rgba(24, 53, 74, 0.10);
+  color: var(--primary);
+  font-size: 0.86rem;
+  font-weight: 700;
 }
 
 .metrics-card {
@@ -486,6 +625,10 @@ h2 {
 }
 
 @media (max-width: 880px) {
+  .brand-hero {
+    grid-template-columns: 1fr;
+  }
+
   .content-grid {
     grid-template-columns: 1fr;
   }
@@ -555,6 +698,10 @@ h2 {
   .hero-copy {
     font-size: 0.98rem;
     line-height: 1.82;
+  }
+
+  .market-grid {
+    grid-template-columns: 1fr;
   }
 
   .doc-card {

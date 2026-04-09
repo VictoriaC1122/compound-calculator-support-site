@@ -21,8 +21,8 @@
         </a>
         <div class="topbar-actions">
           <div class="lang-switcher" role="group" aria-label="Language switcher">
-            <button class="lang-btn active" type="button" data-lang="zh">中</button>
-            <button class="lang-btn" type="button" data-lang="en">EN</button>
+            <button class="lang-btn active" type="button" data-lang="zh" aria-pressed="true">中</button>
+            <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
           <div class="nav-links">
             <a href="./privacy.html" aria-current="page" data-i18n="navPrivacy">隱私權政策</a>
@@ -47,9 +47,8 @@
       <section class="doc-card">
         <h2 data-i18n="section1Title">1. 政策概要</h2>
         <p data-i18n="section1Copy">
-          複利計算機重視你的個人隱私。本 App 主要提供本機財務試算與情境規劃功能，
-          大部分輸入資料會直接在你的裝置上運算。除 Apple 訂閱與系統服務所需流程外，
-          開發者不會主動集中蒐集、出售或建立個人資料資料庫。
+          複利計算機重視你的個人隱私。本 App 主要在你的裝置上完成財務試算與情境規劃。
+          除 Apple 訂閱與系統服務所需流程外，開發者不會主動蒐集、上傳、出售或建立你的個人財務資料庫。
         </p>
       </section>
 
@@ -72,7 +71,7 @@
           <li data-i18n="section3Item3">用於顯示專業版功能狀態，以及處理恢復購買結果</li>
         </ul>
         <p data-i18n="section3Copy">
-          除 Apple 訂閱流程所需的系統服務外，開發者不會基於行銷目的，主動將你的試算內容上傳至自建後端或販售給第三方。
+          除 Apple 訂閱流程與 iOS 系統服務所需機制外，開發者不會為了行銷、分析或追蹤目的，主動將你的試算內容上傳到自建伺服器，也不會將這些資料出售或分享給第三方。
         </p>
       </section>
 
@@ -112,8 +111,8 @@
 
       <section class="doc-card">
         <h2 data-i18n="section8Title">8. 聯絡方式</h2>
-        <p data-i18n="section8Copy">
-          如果你對本政策有任何疑問，或想回報與資料處理相關的問題，請來信至 victoriacheeng1122@gmail.com，我們會盡快回覆你。
+        <p>
+          <span data-i18n="section8Copy" data-i18n-html="true">如果你對本政策有任何疑問，或想回報與資料處理相關的問題，請來信至 <a class="inline-link" href="mailto:victoriacheeng1122@gmail.com">victoriacheeng1122@gmail.com</a>，我們會盡快回覆你。</span>
         </p>
       </section>
     </main>
@@ -122,6 +121,6 @@
       <p data-i18n="footerCopy">© 2026 複利計算機. All rights reserved.</p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

@@ -21,8 +21,8 @@
         </a>
         <div class="topbar-actions">
           <div class="lang-switcher" role="group" aria-label="Language switcher">
-            <button class="lang-btn active" type="button" data-lang="zh">中</button>
-            <button class="lang-btn" type="button" data-lang="en">EN</button>
+            <button class="lang-btn active" type="button" data-lang="zh" aria-pressed="true">中</button>
+            <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
           <div class="nav-links">
             <a href="./privacy.html" data-i18n="navPrivacy">隱私權政策</a>
@@ -81,9 +81,8 @@
 
       <section class="doc-card">
         <h2 data-i18n="section5Title">5. 如果你有問題</h2>
-        <p data-i18n="section5Copy">
-          如果你對內容使用方式有疑問，或認為本網站與 App 的內容涉及權利問題，
-          請來信至 victoriacheeng1122@gmail.com，我們會盡快協助你。
+        <p>
+          <span data-i18n="section5Copy" data-i18n-html="true">如果你對內容使用方式有疑問，或認為本網站與 App 的內容涉及權利問題，請來信至 <a class="inline-link" href="mailto:victoriacheeng1122@gmail.com">victoriacheeng1122@gmail.com</a>，我們會盡快協助你。</span>
         </p>
       </section>
     </main>
@@ -92,6 +91,6 @@
       <p data-i18n="footerCopy">© 2026 複利計算機. All rights reserved.</p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

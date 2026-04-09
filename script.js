@@ -1,3 +1,6 @@
+const CONTACT_EMAIL = "victoriacheeng1122@gmail.com";
+const contactMailto = `<a class="inline-link" href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>`;
+
 const copy = {
   home: {
     zh: {
@@ -8,30 +11,50 @@ const copy = {
       navCopyright: "版權聲明",
       navTerms: "使用條款",
       heroEyebrow: "Compound Calculator",
-      heroTitle: "開始使用前，先快速了解資料、訂閱與使用方式",
-      heroCopy: "這裡整理了使用複利計算機前最常需要知道的內容，包含資料如何處理、專業版訂閱如何由 Apple 管理，以及網站與 App 內容的基本使用方式。你可以直接從下面三個入口開始，先看目前最需要確認的資訊。",
-      highlightOne: "隱私權政策",
-      highlightTwo: "版權聲明",
-      highlightThree: "使用條款",
+      heroTitle: "為長期資產規劃而設計的進階財務工具",
+      heroCopy: "複利計算機整合投資複利、財務自由、退休規劃與貸款分析，讓你用更清楚的數字、更一致的假設與更乾淨的介面，評估長期財務決策。",
+      highlightOne: "進階規劃",
+      highlightTwo: "本機資料處理",
+      highlightThree: "Apple 訂閱管理",
       ctaPrivacy: "查看隱私權政策",
       ctaTerms: "查看使用條款",
+      asideEyebrow: "平台範圍",
+      asideTitle: "核心規劃模組",
+      asideMetricOneLabel: "投資",
+      asideMetricOneValue: "複利成長",
+      asideMetricTwoLabel: "FIRE",
+      asideMetricTwoValue: "情境規劃",
+      asideMetricThreeLabel: "退休",
+      asideMetricThreeValue: "提領試算",
+      asideMetricFourLabel: "貸款",
+      asideMetricFourValue: "風險比較",
+      asideCopy: "適合需要在長期規劃前，先整理不同財務路徑與風險差異的使用者。",
       featureEyebrow: "產品介紹",
       featureTitle: "一個讓長期財務規劃更清楚的工具",
       featureCopy: "複利計算機提供投資複利、財務自由、退休規劃與貸款試算等功能，幫你更快看懂重要數字、比較不同情境，並整理出更適合自己的規劃方向。",
+      featureItemOne: "以一致的輸入邏輯整理投資、退休與貸款分析",
+      featureItemTwo: "用視覺化結果幫助你更快判讀重要數字",
+      featureItemThree: "透過專業版比較不同情境與壓力測試結果",
       metricOneLabel: "主要功能",
       metricOneValue: "投資、FIRE、退休、貸款",
       metricTwoLabel: "資料處理",
       metricTwoValue: "以裝置本機計算為主",
       metricThreeLabel: "訂閱與付款",
       metricThreeValue: "透過 Apple 訂閱與付款機制管理",
-      linksEyebrow: "快速查看",
+      premiumEyebrow: "專業版",
+      premiumTitle: "進階比較、摘要整理與更深入的規劃分析",
+      premiumCopy: "專業版適合需要反覆比較投資、FIRE、退休與貸款方案的使用者，協助你更快整理情境差異與重要觀察。",
+      premiumTagOne: "情境比較",
+      premiumTagTwo: "壓力測試",
+      premiumTagThree: "摘要報告",
+      linksEyebrow: "支援與法務",
       linksPrivacy: "隱私權政策",
       linksCopyright: "版權聲明",
       linksTerms: "使用條款",
       linksPrivacyCopy: "了解 App 如何處理你的資料與裝置上的設定。",
       linksCopyrightCopy: "查看內容使用方式、版權歸屬與授權說明。",
       linksTermsCopy: "快速了解服務範圍、責任界線，以及專業版訂閱的基本條款。",
-      noteEyebrow: "提醒",
+      noteEyebrow: "重要提醒",
       noteCopy: "本網站提供的是產品與使用資訊，協助你了解複利計算機如何運作，以及專業版訂閱如何由 Apple 管理。網站內容不構成投資、保險、貸款或法律建議。",
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
@@ -43,30 +66,50 @@ const copy = {
       navCopyright: "Copyright Notice",
       navTerms: "Terms of Use",
       heroEyebrow: "Compound Calculator",
-      heroTitle: "Review privacy, subscriptions, and usage details before you start",
-      heroCopy: "This page brings together the information users most often want to review before using Compound Calculator, including how data is handled, how Premium subscriptions are managed through Apple, and how app and website content may be used. Start with the section that matters most to you.",
-      highlightOne: "Privacy Policy",
-      highlightTwo: "Copyright Notice",
-      highlightThree: "Terms of Use",
+      heroTitle: "An advanced financial tool for long-horizon planning",
+      heroCopy: "Compound Calculator brings investing, FIRE planning, retirement modeling, and loan analysis into one consistent planning experience, helping users evaluate long-term financial decisions with clearer assumptions and cleaner outputs.",
+      highlightOne: "Advanced Planning",
+      highlightTwo: "On-Device Privacy",
+      highlightThree: "Apple-Managed Subscriptions",
       ctaPrivacy: "View Privacy Policy",
       ctaTerms: "View Terms of Use",
+      asideEyebrow: "Platform Scope",
+      asideTitle: "Core Planning Coverage",
+      asideMetricOneLabel: "Investment",
+      asideMetricOneValue: "Compound Growth",
+      asideMetricTwoLabel: "FIRE",
+      asideMetricTwoValue: "Scenario Planning",
+      asideMetricThreeLabel: "Retirement",
+      asideMetricThreeValue: "Withdrawal Modeling",
+      asideMetricFourLabel: "Loans",
+      asideMetricFourValue: "Risk Comparison",
+      asideCopy: "Designed for users who need a cleaner way to compare financial paths before making long-term decisions.",
       featureEyebrow: "Product Overview",
       featureTitle: "A clearer way to plan long-term finances",
       featureCopy: "Compound Calculator includes tools for investing, FIRE planning, retirement planning, and loan analysis, helping you understand the key numbers, compare scenarios, and make more informed planning decisions.",
+      featureItemOne: "A consistent input model across investing, retirement, and loan planning",
+      featureItemTwo: "Clear visual outputs that help surface the numbers that matter most",
+      featureItemThree: "Premium tools for comparing scenarios and evaluating stress cases",
       metricOneLabel: "Core Areas",
       metricOneValue: "Investing, FIRE, Retirement, Loans",
       metricTwoLabel: "Data Handling",
       metricTwoValue: "Calculated mainly on your device",
-      metricThreeLabel: "Subscriptions",
+      metricThreeLabel: "Subscriptions & Billing",
       metricThreeValue: "Managed through Apple billing and subscriptions",
-      linksEyebrow: "Quick Links",
+      premiumEyebrow: "Premium",
+      premiumTitle: "Deeper comparison, summary reporting, and advanced planning analysis",
+      premiumCopy: "Premium is designed for users who repeatedly compare investing, FIRE, retirement, and loan scenarios and want a faster way to organize differences and key observations.",
+      premiumTagOne: "Scenario Comparison",
+      premiumTagTwo: "Stress Testing",
+      premiumTagThree: "Summary Reports",
+      linksEyebrow: "Support & Legal",
       linksPrivacy: "Privacy Policy",
       linksCopyright: "Copyright Notice",
       linksTerms: "Terms of Use",
       linksPrivacyCopy: "See how the app handles your data and on-device settings.",
       linksCopyrightCopy: "Review ownership, permitted use, and licensing notes.",
       linksTermsCopy: "Understand service scope, responsibilities, and the basic terms for Premium subscriptions.",
-      noteEyebrow: "Note",
+      noteEyebrow: "Important Notice",
       noteCopy: "This website provides product and usage information to help you understand how Compound Calculator works and how Premium subscriptions are managed through Apple. It does not constitute investment, insurance, lending, or legal advice.",
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
@@ -109,7 +152,7 @@ const copy = {
       section7Item2: "Apple StoreKit：處理 App 內訂閱購買與權限驗證",
       section7Item3: "iOS System Share Sheet：處理使用者主動發起的摘要分享",
       section8Title: "8. 聯絡方式",
-      section8Copy: "如果你對本政策有任何疑問，或想回報與資料處理相關的問題，請來信至 victoriacheeng1122@gmail.com，我們會盡快回覆你。",
+      section8Copy: `如果你對本政策有任何疑問，或想回報與資料處理相關的問題，請來信至 ${contactMailto}，我們會盡快回覆你。`,
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
@@ -149,7 +192,7 @@ const copy = {
       section7Item2: "Apple StoreKit: for in-app subscription purchases and entitlement validation",
       section7Item3: "iOS System Share Sheet: for user-initiated summary sharing",
       section8Title: "8. Contact",
-      section8Copy: "If you have any questions about this policy, or would like to report a data-related concern, please contact us at victoriacheeng1122@gmail.com.",
+      section8Copy: `If you have any questions about this policy, or would like to report a data-related concern, please contact us at ${contactMailto}.`,
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   },
@@ -179,7 +222,7 @@ const copy = {
       section4Title: "4. 內容性質說明",
       section4Copy: "複利計算機提供的是試算、整理與比較工具，協助你理解不同情境下的數字變化。網站與 App 的內容主要是一般資訊與產品使用說明，不構成投資、保險、貸款、會計或法律意見，也不保證任何報酬、核貸結果或保單給付。",
       section5Title: "5. 如果你有問題",
-      section5Copy: "如果你對內容使用方式有疑問，或認為本網站與 App 的內容涉及權利問題，請來信至 victoriacheeng1122@gmail.com，我們會盡快協助你。",
+      section5Copy: `如果你對內容使用方式有疑問，或認為本網站與 App 的內容涉及權利問題，請來信至 ${contactMailto}，我們會盡快協助你。`,
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
@@ -207,7 +250,7 @@ const copy = {
       section4Title: "4. What This Content Is For",
       section4Copy: "Compound Calculator provides tools for calculation, organization, and comparison to help users understand how figures may change across different scenarios. The app and website content is intended as general information and product guidance, and does not guarantee investment returns, loan approval outcomes, insurance payouts, or retirement planning results.",
       section5Title: "5. If You Have a Question",
-      section5Copy: "If you have questions about how the content may be used, or believe any part of the app or website affects your rights, please contact us at victoriacheeng1122@gmail.com.",
+      section5Copy: `If you have questions about how the content may be used, or believe any part of the app or website affects your rights, please contact us at ${contactMailto}.`,
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   },
@@ -239,7 +282,7 @@ const copy = {
       section6Title: "6. 服務調整與更新",
       section6Copy: "開發者有權依產品需求、法規變動或平台要求，隨時調整、更新、暫停或終止部分功能與說明內容，並於合理範圍內更新相關條款。",
       section7Title: "7. 聯絡方式",
-      section7Copy: "如果你對本使用條款有任何疑問，或想進一步了解 App 的使用方式，請來信至 victoriacheeng1122@gmail.com，我們會盡快回覆你。",
+      section7Copy: `如果你對本使用條款有任何疑問，或想進一步了解 App 的使用方式，請來信至 ${contactMailto}，我們會盡快回覆你。`,
       footerCopy: "© 2026 複利計算機. All rights reserved."
     },
     en: {
@@ -269,7 +312,7 @@ const copy = {
       section6Title: "6. Service Changes and Updates",
       section6Copy: "The developer may adjust, update, suspend, or discontinue parts of the service or related explanations at any time in response to product needs, legal changes, or platform requirements, and may update these terms within a reasonable scope.",
       section7Title: "7. Contact",
-      section7Copy: "If you have any questions about these Terms of Use, or would like to better understand how the app is intended to be used, please contact us at victoriacheeng1122@gmail.com.",
+      section7Copy: `If you have any questions about these Terms of Use, or would like to better understand how the app is intended to be used, please contact us at ${contactMailto}.`,
       footerCopy: "© 2026 Compound Calculator. All rights reserved."
     }
   }
@@ -284,6 +327,11 @@ const defaultLang = savedLang === "en" ? "en" : "zh";
 const pageCopy = copy[page];
 
 function setNodeCopy(node, value) {
+  if (node.dataset.i18nHtml === "true") {
+    node.innerHTML = value;
+    return;
+  }
+
   node.textContent = value;
 }
 
